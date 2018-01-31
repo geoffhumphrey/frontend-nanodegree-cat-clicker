@@ -9,11 +9,17 @@
   <body>
     <div class="container">
       <h1>Cat Clicker</h1>
-      <div class="text-center">
-        <a id="cat-clicker-1" href="#"><img src="img/cat1.jpg" class="rounded" alt="cat1"></a>
-        <div id="cat-counter-1">
-        <p class="lead"><strong>Number of clicks: <span id="counter"></span></strong></p>
-      </div>
+      <div class="row text-center">
+        <div class="col col-sm-6">
+          <h3 id="cat-clicker-name-1"></h3>
+          <a id="cat-clicker-1" href="#"><img src="img/cat1.jpg" class="rounded img-fluid" alt="cat1"></a>
+            <p class="lead"><strong>Number of clicks: <span id="cat-counter-1" class="text-danger"></span></strong></p>
+        </div>
+        <div class="col col-sm-6">
+          <h3 id="cat-clicker-name-2"></h3>
+          <a id="cat-clicker-2" href="#"><img src="img/cat2.jpg" class="rounded img-fluid" alt="cat2"></a>
+            <p class="lead"><strong>Number of clicks: <span id="cat-counter-2" class="text-danger"></span></strong></p>
+        </div>
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
